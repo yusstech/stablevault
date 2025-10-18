@@ -61,7 +61,7 @@ export default function ProblemSection() {
             <span className="text-white/40">Are Losing Money Daily</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/60 max-w-3xl mx-auto">
-            Every day you wait, inflation and high fees eat into your profits. You work hard for your money—don't let the system waste it.
+            Every day you wait, inflation and high fees eat into your profits. You work hard for your money—don&apos;t let the system waste it.
           </p>
         </motion.div>
 

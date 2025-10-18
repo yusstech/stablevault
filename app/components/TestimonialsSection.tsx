@@ -81,7 +81,7 @@ export default function TestimonialsSection() {
             <span className="text-white/40">Real Results</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/60 max-w-3xl mx-auto">
-            Over 2,500 businesses trust StableVault with their money. Here's why they made the switch.
+            Over 2,500 businesses trust StableVault with their money. Here&apos;s why they made the switch.
           </p>
         </motion.div>
 
@@ -139,7 +139,7 @@ export default function TestimonialsSection() {
 
                 {/* Quote */}
                 <p className="text-white/80 leading-relaxed mb-4 text-sm">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </p>
 
                 {/* Stat */}
