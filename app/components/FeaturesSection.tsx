@@ -5,45 +5,57 @@ import { motion } from 'framer-motion';
 export default function FeaturesSection() {
   const features = [
     {
-      icon: '💰',
-      title: 'Save in USD, Earn 5% Interest',
-      description: 'Protect your money from inflation while earning actual returns. Your dollars work for you, not against you.',
+      icon: (
+        <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      ),
+      title: 'Get paid instantly',
+      description: 'Whether it&apos;s a client overseas, a supplier, or family back home, you see your money within minutes. No waiting, no guessing, just instant freedom.',
       benefits: [
-        'Beat inflation automatically',
-        'Interest paid monthly',
-        'No minimum balance',
-        'Withdraw anytime'
+        'Receive payments in minutes',
+        'From anywhere in the world',
+        'Multiple currencies supported',
+        'Real-time notifications'
       ],
-      stat: '5% APY',
-      statLabel: 'Annual Return',
+      stat: '< 5min',
+      statLabel: 'Average Payment Time',
       color: 'success-green'
     },
     {
-      icon: '⚡',
-      title: 'Pay Suppliers at 1% Fee',
-      description: 'Send money to China, UK, US, or anywhere globally at a fraction of what banks charge. Fast and transparent.',
+      icon: (
+        <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      ),
+      title: 'Send to anyone, anywhere',
+      description: 'Pay your business partners, freelancers, or loved ones in seconds. No borders, no delays, no hidden costs.',
       benefits: [
-        'Save up to 4% per transaction',
-        'Same-day transfers',
+        'Send to 50+ countries',
+        'Transparent pricing',
         'Real exchange rates',
-        'Track every payment'
+        'Track every transfer'
       ],
-      stat: '1%',
-      statLabel: 'Transaction Fee',
+      stat: '50+',
+      statLabel: 'Countries Supported',
       color: 'vibrant-purple'
     },
     {
-      icon: '🚀',
-      title: 'Fast, Secure Transactions',
-      description: 'Move money in minutes, not days. Bank-grade security keeps your funds safe 24/7.',
+      icon: (
+        <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+        </svg>
+      ),
+      title: 'Spend like it&apos;s local',
+      description: 'Use a virtual card online, withdraw to your local bank, or convert currencies effortlessly. Your money works where you work.',
       benefits: [
-        '2-factor authentication',
-        'Instant local transfers',
-        'Encrypted transactions',
-        '24/7 support access'
+        'Virtual cards for online payments',
+        'Instant local withdrawals',
+        'Currency conversion on demand',
+        'Spend globally without fees'
       ],
-      stat: '< 2min',
-      statLabel: 'Average Transfer Time',
+      stat: '24/7',
+      statLabel: 'Always Available',
       color: 'deep-blue'
     }
   ];
@@ -64,12 +76,12 @@ export default function FeaturesSection() {
           className="text-center mb-16 lg:mb-20"
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-            The Dollar Bank
+            Relyr changes
             <br />
-            <span className="text-white/40">Nigerian Businesses Deserve</span>
+            <span className="text-white/40">everything.</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/60 max-w-3xl mx-auto">
-            Everything you need to save, grow, and spend your money wisely. No hidden fees, no confusing terms.
+            One wallet. One app. Get paid, send, convert, and spend — wherever you are, wherever they are.
           </p>
         </motion.div>
 
@@ -88,7 +100,7 @@ export default function FeaturesSection() {
             >
               {/* Content */}
               <div className={`${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-white/5 rounded-2xl mb-6 text-4xl">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-white/5 rounded-2xl mb-6 text-success-green-500">
                   {feature.icon}
                 </div>
 

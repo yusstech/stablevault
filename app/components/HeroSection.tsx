@@ -52,11 +52,9 @@ export default function HeroSection() {
             transition={{ duration: 0.8 }}
             className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 lg:mb-0 leading-tight lg:pr-8 lg:row-start-1 lg:col-start-1"
           >
-            Save in Dollars,
+            Move money across borders
             <br />
-            Earn Interest,
-            <br />
-            <span className="text-white/40">Pay Suppliers Cheap</span>
+            <span className="text-white/40">— instantly.</span>
           </motion.h1>
 
           {/* Mobile App Mockup - Second on mobile, right column on desktop */}
@@ -254,7 +252,7 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg sm:text-xl text-white/60 mb-10 leading-relaxed max-w-xl"
             >
-              Say goodbye to inflation eating your savings and expensive bank fees. Our hassle-free platform lets you save in dollars, earn 5% interest, and pay suppliers at 1% fee. Trust us to handle your money securely and efficiently.
+              For Africans working, trading, and building globally. Your money should move as fast as your ambition. No delays, no hidden fees, no frustration.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -277,7 +275,7 @@ export default function HeroSection() {
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-4 bg-transparent text-white font-semibold text-base rounded-xl border-2 border-white/20 hover:border-white/40 transition-all duration-300"
               >
-                Send money
+                Learn more
               </motion.button>
             </motion.div>
 

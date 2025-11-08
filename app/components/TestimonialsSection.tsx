@@ -9,7 +9,7 @@ export default function TestimonialsSection() {
       role: 'Fashion Retailer',
       location: 'Lagos',
       image: '👩🏾',
-      quote: 'I used to lose ₦200,000+ every month in bank fees when paying my suppliers in China. With StableVault, I pay 1% and the money arrives same day. My profit margins have never been better.',
+      quote: 'I used to lose ₦200,000+ every month in bank fees when paying my suppliers in China. With Relyr, the money arrives within minutes and fees are transparent. My profit margins have never been better.',
       stat: 'Saves ₦2.4M yearly',
       verified: true
     },
@@ -18,7 +18,7 @@ export default function TestimonialsSection() {
       role: 'E-commerce Business Owner',
       location: 'Abuja',
       image: '👨🏾',
-      quote: 'Naira was eating my capital alive. I moved my working capital to StableVault and now earn 5% interest instead of watching inflation destroy my savings. Game changer.',
+      quote: 'Getting paid from international clients used to take days. Now with Relyr, I receive payments instantly and can convert or spend whenever I need to. Total game changer.',
       stat: 'Earns $420/month interest',
       verified: true
     },
@@ -27,7 +27,7 @@ export default function TestimonialsSection() {
       role: 'Software Developer',
       location: 'Port Harcourt',
       image: '👩🏾‍💻',
-      quote: 'Getting paid in dollars from clients abroad was always a nightmare until StableVault. Now I receive payments directly, keep it in USD, and use it when I need it. Simple.',
+      quote: 'Getting paid in dollars from clients abroad was always a nightmare until Relyr. Now I receive payments directly, convert currencies in real-time, and spend without delays. Simple.',
       stat: 'Receives $8K+ monthly',
       verified: true
     },
@@ -45,7 +45,7 @@ export default function TestimonialsSection() {
       role: 'Beauty Products Distributor',
       location: 'Enugu',
       image: '👩🏾‍🦱',
-      quote: 'As a woman in business, I need my money to work smart. StableVault gives me dollar stability, great interest, and respect. No condescending bank staff, just results.',
+      quote: 'As a woman in business, I need my money to work smart. Relyr gives me instant access to my funds globally, transparent pricing, and respect. No condescending bank staff, just results.',
       stat: 'Grew savings by 47%',
       verified: true
     },
@@ -54,7 +54,7 @@ export default function TestimonialsSection() {
       role: 'Tech Startup Founder',
       location: 'Lagos',
       image: '👨🏾‍💻',
-      quote: 'Running a startup means every kobo counts. Moving to USD accounts with StableVault protected my runway and the 5% APY is better than any Naira fixed deposit I have seen.',
+      quote: 'Running a startup means every kobo counts. Relyr lets me pay contractors worldwide instantly and manage multiple currencies without the hassle. It just works.',
       stat: '$15K saved in 6 months',
       verified: true
     }
@@ -76,12 +76,12 @@ export default function TestimonialsSection() {
           className="text-center mb-16 lg:mb-20"
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Real Nigerian Businesses,
+            Real People,
             <br />
-            <span className="text-white/40">Real Results</span>
+            <span className="text-white/40">Moving Money Globally</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/60 max-w-3xl mx-auto">
-            Over 2,500 businesses trust StableVault with their money. Here&apos;s why they made the switch.
+            Thousands of Africans trust Relyr to move their money across borders. Here&apos;s why they made the switch.
           </p>
         </motion.div>
 

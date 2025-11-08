@@ -6,30 +6,46 @@ export default function HowItWorksSection() {
   const steps = [
     {
       number: '01',
-      title: 'Sign Up in Minutes',
-      description: 'Download the app or visit our website. Create your account with just your phone number and BVN. No branch visits, no stress.',
-      icon: '📱',
+      title: 'Create Your Account',
+      description: 'Sign up in minutes with just your email and phone number. No complicated forms, no endless verification.',
+      icon: (
+        <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        </svg>
+      ),
       time: '2 minutes'
     },
     {
       number: '02',
-      title: 'Fund Your Dollar Account',
-      description: 'Transfer Naira and we convert to USD at real rates. Or receive dollars directly from abroad. Your choice.',
-      icon: '💵',
+      title: 'Receive Money Globally',
+      description: 'Get paid from anywhere in the world. Your clients, customers, or family can send money directly to your Relyr wallet.',
+      icon: (
+        <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      ),
       time: 'Instant'
     },
     {
       number: '03',
-      title: 'Watch Your Money Grow',
-      description: 'Earn 5% interest automatically every month. No hidden terms, no minimum balance. Your money works while you sleep.',
-      icon: '📈',
-      time: 'Monthly'
+      title: 'Send & Convert',
+      description: 'Pay anyone, anywhere. Convert between currencies at real market rates. No hidden fees, no surprises.',
+      icon: (
+        <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+        </svg>
+      ),
+      time: 'Real-time'
     },
     {
       number: '04',
-      title: 'Pay or Withdraw Anytime',
-      description: 'Send dollars to suppliers worldwide at 1% fee. Or withdraw to your Naira account instantly. Total control, zero hassle.',
-      icon: '🚀',
+      title: 'Spend or Withdraw',
+      description: 'Use your virtual card for online purchases, or withdraw to your local bank account. Your money, your way.',
+      icon: (
+        <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+        </svg>
+      ),
       time: 'Anytime'
     }
   ];
@@ -56,12 +72,12 @@ export default function HowItWorksSection() {
           className="text-center mb-16 lg:mb-24"
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Get Started in
+            One wallet. One app.
             <br />
-            <span className="text-white/40">Four Simple Steps</span>
+            <span className="text-white/40">Move money globally.</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/60 max-w-3xl mx-auto">
-            No paperwork, no long queues, no confusion. Just straightforward banking that works for you.
+            From Lagos to London, Nairobi to New York — your money simply moves.
           </p>
         </motion.div>
 
@@ -95,7 +111,7 @@ export default function HowItWorksSection() {
                   </div>
 
                   {/* Icon */}
-                  <div className="text-5xl mb-4 mt-4">
+                  <div className="w-12 h-12 text-success-green-500 mb-4 mt-4">
                     {step.icon}
                   </div>
 
@@ -129,7 +145,7 @@ export default function HowItWorksSection() {
           className="text-center mt-16 lg:mt-20"
         >
           <p className="text-white/80 text-lg mb-6">
-            Ready to take control of your money?
+            Join thousands moving money globally, instantly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.button
@@ -137,14 +153,14 @@ export default function HowItWorksSection() {
               whileTap={{ scale: 0.98 }}
               className="px-8 py-4 bg-white text-black font-semibold text-base rounded-xl hover:bg-white/90 transition-all duration-300"
             >
-              Open Your Account
+              Get Started
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="px-8 py-4 bg-transparent text-white font-semibold text-base rounded-xl border-2 border-white/20 hover:border-white/40 transition-all duration-300"
             >
-              Talk to Support
+              Learn More
             </motion.button>
           </div>
         </motion.div>

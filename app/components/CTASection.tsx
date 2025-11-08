@@ -38,20 +38,20 @@ export default function CTASection() {
             transition={{ duration: 0.6 }}
             className="inline-flex items-center gap-2 bg-success-green-500/10 border border-success-green-500/20 rounded-full px-4 py-2 mb-8"
           >
-            <span className="text-2xl">🎉</span>
-            <span className="text-success-green-400 font-medium text-sm">Limited Time: No Setup Fees</span>
+            <span className="text-2xl">🚀</span>
+            <span className="text-success-green-400 font-medium text-sm">Join the movement</span>
           </motion.div>
 
           {/* Headline */}
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Stop Losing Money
+            Built for Africans
             <br />
-            <span className="text-white/40">Start Growing It Today</span>
+            <span className="text-white/40">redefining the world.</span>
           </h2>
 
           {/* Description */}
           <p className="text-lg sm:text-xl text-white/60 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Join 2,500+ Nigerian businesses who have already saved over $8.5M in fees and earned real returns. Your money deserves better.
+            You hustle, you create, you build — we make sure your money keeps up. Because global shouldn&apos;t feel far away.
           </p>
 
           {/* CTA Buttons */}
@@ -61,7 +61,7 @@ export default function CTASection() {
               whileTap={{ scale: 0.98 }}
               className="px-10 py-5 bg-white text-black font-bold text-lg rounded-xl hover:bg-white/90 transition-all duration-300 shadow-xl"
             >
-              Open Your Account Now
+              Sign Up
             </motion.button>
 
             <motion.button
@@ -69,7 +69,7 @@ export default function CTASection() {
               whileTap={{ scale: 0.98 }}
               className="px-10 py-5 bg-transparent text-white font-bold text-lg rounded-xl border-2 border-white/20 hover:border-white/40 hover:bg-white/5 transition-all duration-300"
             >
-              Schedule a Demo
+              Partner with Us
             </motion.button>
           </div>
 
@@ -135,7 +135,7 @@ export default function CTASection() {
                   ))}
                 </div>
                 <p className="text-white/80 font-medium text-sm">
-                  Trusted by 2,500+ businesses
+                  Experience the freedom of instant global payments
                 </p>
               </div>
             </div>

@@ -47,9 +47,9 @@ export default function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h3 className="text-2xl font-bold text-white mb-4">StableVault</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Relyr</h3>
               <p className="text-white/60 leading-relaxed mb-6">
-                The dollar bank Nigerian businesses deserve. Save in USD, earn 5% interest, and pay suppliers at 1% fee.
+                Move money across borders — instantly. For Africans working, trading, and building globally.
               </p>
 
               {/* Social links */}
@@ -108,7 +108,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/60 text-sm">
-              © 2025 StableVault. All rights reserved.
+              © 2025 Relyr. All rights reserved.
             </p>
 
             <div className="flex items-center gap-6">
@@ -127,9 +127,9 @@ export default function Footer() {
           {/* Legal disclaimer */}
           <div className="mt-8 pt-6 border-t border-white/5">
             <p className="text-white/40 text-xs leading-relaxed text-center max-w-4xl mx-auto">
-              StableVault is a financial technology company, not a bank. Banking services provided by our licensed partner banks.
-              Funds are NDIC insured up to ₦500,000. Interest rates and fees subject to change. USD savings and interest earnings
-              are subject to applicable regulations. International transfers may take 1-3 business days depending on destination.
+              Relyr is a financial technology company, not a bank. Banking services provided by our licensed partner institutions.
+              Exchange rates and fees subject to change. International transfers typically complete within minutes, but may take longer
+              depending on destination and local regulations. Your money is protected by industry-standard security measures.
             </p>
           </div>
         </div>
