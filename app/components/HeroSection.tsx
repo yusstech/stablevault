@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { WAITLIST_FORM_URL, CONTACT_EMAIL } from '../config/constants';
 
 export default function HeroSection() {
   return (
@@ -262,21 +263,25 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="flex flex-col sm:flex-row gap-4 mb-12"
             >
-              <motion.button
+              <motion.a
+                href={WAITLIST_FORM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="px-8 py-4 bg-white text-black font-semibold text-base rounded-xl hover:bg-white/90 transition-all duration-300"
+                className="px-8 py-4 bg-white text-black font-semibold text-base rounded-xl hover:bg-white/90 transition-all duration-300 text-center"
               >
-                Open an account
-              </motion.button>
+                Join Waitlist
+              </motion.a>
 
-              <motion.button
+              <motion.a
+                href={`mailto:${CONTACT_EMAIL}`}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="px-8 py-4 bg-transparent text-white font-semibold text-base rounded-xl border-2 border-white/20 hover:border-white/40 transition-all duration-300"
+                className="px-8 py-4 bg-transparent text-white font-semibold text-base rounded-xl border-2 border-white/20 hover:border-white/40 transition-all duration-300 text-center"
               >
-                Learn more
-              </motion.button>
+                Contact Us
+              </motion.a>
             </motion.div>
 
             {/* Trust badges */}
